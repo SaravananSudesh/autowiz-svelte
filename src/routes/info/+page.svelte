@@ -66,7 +66,7 @@
 
     async function showVariant(variantId){
         const url = `/variant?car=${id}&variant=${variantId}`
-        await window.open(url, "_blank")
+        await goto(url)
     }
 
 </script>

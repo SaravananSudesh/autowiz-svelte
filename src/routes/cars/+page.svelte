@@ -58,7 +58,7 @@
     //show car info
     async function carInfo(id){
         const url = `/info?car=${id}`
-        await window.open(url, "_blank")
+        await goto(url)
     }
 
 </script>
