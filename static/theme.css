@@ -1,0 +1,108 @@
+body::-webkit-scrollbar{
+    display: none !important;
+}
+
+.logo{
+    color: #393749;
+}
+.page-wrap{
+    background-image: url(../bgimage.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.light-text{
+    color: #C1C0A4;
+}
+
+.search-page{
+    background-color: #C1C0A4;
+}
+
+.accent-bg{
+    background-color: #121A36;
+}
+
+.custom-heading-1{
+    font-size: 5rem;
+    color: #C1C0A4;
+    text-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    font-weight: bold;
+}
+
+.search-button{
+    color: #8F907F;
+    background-color: #121A36;
+    border: 0;
+    border-radius: 12px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    text-align: center;
+    white-space: nowrap;
+    transition: 0.3s;
+}
+.search-button:hover{
+    color: #121A36;
+    background-color: #8F907F;
+}
+.search-button:focus{
+    color: #393749;
+}
+
+.search-header{
+    color: #C1C0A4;
+    background-color: #393749;
+}
+
+.search-body{
+    background-color: #6c6c74;
+}
+.button-card{
+    background-color: #EBE8D9;
+    cursor: pointer;
+    border: 6px solid #EBE8D9;
+    transition: 0.2s;
+}
+.button-card:hover{
+    border: 6px solid #393749;
+}
+
+.car-button{
+    color: #121A36;
+    background-color: #EBE8D9;
+    border: 0;
+    border-radius: 12px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    text-align: center;
+    white-space: nowrap;
+    transition: 0.3s;
+}
+.car-button:hover{
+    color: #121A36;
+    background-color: #8F907F;
+}
+.car-button:focus{
+    color: #393749;
+}
+
+.tabs a:hover{
+    color: #C1C0A4 !important;
+    background-color: #393749 !important;
+    transition: 0.2s;
+}
+.tabs.is-toggle li.is-active a{
+    color: #C1C0A4;
+    background-color: #393749;
+}
